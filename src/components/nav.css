@@ -1,0 +1,21 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+nav {
+  background: red;
+  padding: 0.4rem; }
+  nav ul {
+    display: flex;
+    justify-content: space-evenly; }
+  nav li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase; }
+  nav .search {
+    padding: 0.5rem;
+    width: 30%;
+    border-radius: 0.2rem; }
+
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,27 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$standard-color:#fff;
+
+body{
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+nav {
+  background: red;
+  padding: 0.4rem;
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  li {
+    list-style-type: none;
+    color:$standard-color ;
+    font-size: 1.3rem;
+    text-transform:uppercase;
+  }
+  .search {
+    padding: 0.5rem;
+    width: 30%;
+    border-radius: 0.2rem;
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './nav.css'
 
 function Nav() {
   return (
@@ -8,6 +8,10 @@ function Nav() {
        <ul>
          <li>
            saral
+         </li>
+         <input type="text" className="search"></input>
+         <li>
+           courses
          </li>
        </ul>
      </nav>
