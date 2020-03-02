@@ -12,10 +12,12 @@ nav {
     list-style-type: none;
     color: #fff;
     font-size: 1.3rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 1rem; }
+  nav .fa {
+    margin: 0.5rem; }
   nav .search {
-    padding: 0.5rem;
-    width: 30%;
+    padding: 0.2rem;
     border-radius: 0.2rem; }
 
 /*# sourceMappingURL=nav.css.map */

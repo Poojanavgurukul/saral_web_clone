@@ -9,7 +9,10 @@ function Nav() {
          <li>
            saral
          </li>
+         <li>
+         <i class="fa fa-search" aria-hidden="true"></i>
          <input type="text" className="search"></input>
+         </li>
          <li>
            courses
          </li>
