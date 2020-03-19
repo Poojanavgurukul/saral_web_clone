@@ -1,0 +1,41 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$standard-color:#fff;
+
+body{
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+nav {
+  background: red;
+  padding: 0.4rem;
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  li {
+    list-style-type: none;
+    color:$standard-color ;
+    font-size: 1.3rem;
+    text-transform:uppercase;
+    margin-top: 1rem;
+  }
+  .fa{
+    margin: 0.5rem;
+  }
+  .search {
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+  }
+}
+.cd-body {
+  display:grid;
+  grid-template-columns: 20% 20% 20%;
+  grid-gap:2%;
+  margin-top:1%;
+  justify-content:center
+}
+.image {
+  width:100px;
+  height:100px;
+}
